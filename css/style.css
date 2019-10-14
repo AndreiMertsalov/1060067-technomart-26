@@ -1596,7 +1596,7 @@ input[type=text] {
     height: 26px;
     top: -4px;
     left: 0;
-    background: url(../img/sprite.png) no-repeat;
+    background: url(../img/sprite.jpg) no-repeat;
     background-position: -54px -145px;
 }
 .list-firm input[type=checkbox]:checked+label:hover::after {
