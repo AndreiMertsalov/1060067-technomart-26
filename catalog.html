@@ -19,11 +19,11 @@
           <div class="search">
             <form action="#" method="get" enctype="multipart/form-data">
               <input type="search" name="search" id="search" placeholder="Поиск:">
-              <label class="search-label" for="search"></label>
+              <label class="search-label poisk" for="search"></label>
             </form>
           </div>
-          <a class="bookmarks" href="#bookmarks">Закладки: 0</a>
-          <a class="basket full-basket" href="#full-basket">Корзина: 10</a>
+          <a class="bookmarks bookmark" href="#bookmarks">Закладки: 0</a>
+          <a class="basket full-basket cart" href="#full-basket">Корзина: 10</a>
           <a class="ordering" href="#ordering">Оформить заказ</a>
         </div>
       </div>
@@ -36,7 +36,7 @@
           </p>
         </div>
         <div class="data">
-          <div class="telephone">
+          <div class="telephone phone">
             <p>+7 (812) 555-05-55</p>
           </div>
           <div class="address">
@@ -44,7 +44,7 @@
           </div>
         </div>
 				<div class="user-block">
-					<a class="loged" href="#">Равшан Джамшутович</a>
+					<a class="loged exit" href="#">Равшан Джамшутович</a>
 				</div>
 				<div class="information">
           <a class="my-orders" href="#">Мои заказы</a>
@@ -68,9 +68,9 @@
 	<main>
 		<div class="block-4">
 			<div class="container clearfix">
-				<div class="breadcrumbs">
+				<div class="breadcrumbs home">
    	      <a href="#"></a>
-      	 	<a class="marker1" href="#">Каталог</a>
+      	 	<a class="marker1 right-1" href="#">Каталог</a>
           <a class="marker2" href="#">Инструмент</a>
        	 	<a class="active">Перфораторы</a>
 			  </div>
@@ -101,23 +101,23 @@
 						<div class="by-firm">
 							<h3>Производители:</h3>
 							<ul class="list-firm">
-								<li>
+								<li class="checkbox-1">
 									<input type="checkbox" name="firm1" id="ch1" value="Bosch" checked>
 									<label for="ch1">Bosch</label>
 								</li>
-								<li>
+								<li class="checkbox-2">
 									<input type="checkbox" name="firm2" id="ch2" value="Интерскол">
 									<label for="ch2">Интерскол</label>
 								</li>
-								<li>
+								<li class="checkbox-3">
 									<input type="checkbox" name="firm3" id="ch3" value="Makita" checked>
 									<label for="ch3">Makita</label>
 								</li>
-								<li>
+								<li class="checkbox-4">
 									<input type="checkbox" name="firm4" id="ch4" value="Dewalt">
 									<label for="ch4">Dewalt</label>
 								</li>
-								<li>
+								<li class="checkbox-5">
 									<input type="checkbox" name="firm5" id="ch5" value="Hitachi">
 									<label for="ch5">Hitachi</label>
 								</li>
@@ -127,9 +127,11 @@
 						<div class="by-supply">
 							<h3>Питание:</h3>
 							<ul class="list-supply">
-								<li>
+								<li class="radio-one">
 									<input type="radio" name="supply" id="rd1" value="accumulator" checked>
 									<label for="rd1">Аккумуляторные</label>
+                              </li>
+                              <li class="radio-two">
 									<input type="radio" name="supply" id="rd2" value="lan">
 									<label for="rd2">Сетевые</label>
 								</li>
@@ -155,7 +157,7 @@
 								<a class="sorting-up sorting-up-active"></a>
 							</li>
 							<li>
-								<a class="sorting-down" href="#by-down"></a>
+								<a class="sorting-down sorting-down-active" href="#by-down"></a>
 							</li><!--  тут подключается sorting-down-active -->
 						</ul>
 					</div>
@@ -188,7 +190,7 @@
 							<span class="oldprice">30500 Р.</span>
 							<a class="btn" href="#bfg6000">25500 Р.</a>
 						</article>
-						<article class="drill new">
+						<article class="drill new flag">
          			<div class="drill-actions">
             		<a href="#buy" class="buy js-buy">Купить</a>
             		<a href="#in-bookmark" class="in-bookmark">В закладки</a>
@@ -215,7 +217,7 @@
 							<span class="oldprice">22500 Р.</span>
 							<a class="btn" href="#bfg3000">15500 Р.</a>
 						</article>
-						<article class="drill new">
+						<article class="drill new flag">
          			<div class="drill-actions">
             		<a href="#buy" class="buy js-buy">Купить</a>
             		<a href="#in-bookmark" class="in-bookmark">В закладки</a>
@@ -242,7 +244,7 @@
 							</div>
 							<a class="btn" href="#bfg2000">12500 Р.</a>
 						</article>
-						<article class="drill new">
+						<article class="drill new flag">
          			<div class="drill-actions">
             		<a href="#buy" class="buy js-buy">Купить</a>
             		<a href="#in-bookmark" class="in-bookmark">В закладки</a>
@@ -358,9 +360,9 @@
           </p>
         </div>
         <div class="social">
-          <a class="social-btn-vk" href="../vk.com/mygroup"></a>
-          <a class="social-btn-fb" href="../facebook.com/mygroup"></a>
-          <a class="social-btn-inst" href="../instagram.com/mygroup"></a>
+          <a class="social-btn-vk vk-icon" href="../vk.com/mygroup"></a>
+          <a class="social-btn-fb fb-icon" href="../facebook.com/mygroup"></a>
+          <a class="social-btn-inst insta-icon" href="../instagram.com/mygroup"></a>
         </div>
         <div class="communication">
           <div class="feedback">
